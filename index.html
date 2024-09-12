@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>FUJA OU MORRA</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo 0">
+            <img src="cenario-passo0.jpeg" alt="">
+            <p>Em uma certa você é atacado(a) por um assassino em série, o que você faz?</p>
+            <button class="btn-proximo" data-proximo="1">Foge</button>
+            <button class="btn-proximo" data-proximo="2">Defende</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você é perseguido pelo assassino.</p>
+            <button class="btn-proximo" data-proximo="3">Continuar fugindo</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e se entregar</button>
+        </div>
+        <div class="passo" id="passo-2">
+        <p>Você entra em uma luta corporal, ferindo o assassino. Ao tentar fugir você se depara com duas ruas, qual você segue? </p>
+        <button class="btn-proximo" data-proximo="5">Esquerda</button>
+        <button class="btn-proximo" data-proximo="6">Direita</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Ao tentar despistar o assassino, você acaba em uma rua fechada com um muro. </p>
+            <button class="btn-proximo" data-proximo="7">Pular muro</button>
+        </div>
+    
+        <div class="passo" id="passo-4">
+            <img src="cenario-passo4.jpeg" alt="">
+            <p>Você decide que não terá chances contra o assassino e resolve se entregar.</p>
+        </div>
+    
+        <div class="passo" id="passo-5">
+            <p>Ao seguir a rua da esquerda você se dá em uma rua sem saída, fechada com um muro. </p>
+            <button class="btn-proximo" data-proximo="7">Pular muro</button>
+        </div>
+    
+        <div class="passo" id="passo-6">
+            <p>Ao seguir a rua da esquerda, você encontra uma bicicleta e pensa que será uma boa oportunidade para fugir.</p>
+            <button class="btn-proximo" data-proximo="8">Pegar</button>
+        </div>
+    
+        <div class="passo" id="passo-7">
+            <p>Ao pular o muro, você encontra um machado encostado em uma árvore.</p>
+            <button class="btn-proximo" data-proximo="9">Fingir que não viu</button>
+            <button class="btn-proximo" data-proximo="10">Pegar e atacar</button>
+        </div>
+    
+        <div class="passo" id="passo-8">
+            <p>Ao continuar seguindo a rua, você encontra uma rammpa em um muro.</p>
+            <button class="btn-proximo" data-proximo="7">Pular</button>
+        </div>
+    
+        <div class="passo" id="passo-9">
+            <p>Após alguns minutos fugindo, você vê a delegacia e pensa na oportunidade de se salvar.</p>
+            <button class="btn-proximo" data-proximo="11">Continuar</button>
+        </div>
+    
+        <div class="passo" id="passo-10">
+            <p>Você se esconde e ataca o assassino, ferindo a perna dele.</p>
+            <button class="btn-proximo" data-proximo="12">Correr</button>
+        </div>
+    
+        <div class="passo" id="passo-11">
+            <img src="cenario-passo11.jpeg" alt="">
+            <p>Dentro da delegacia você é acolhido (a) pelos policiais e o assassino é preso.</p>
+        </div>
+        <div class="passo" id="passo-12">
+            <p>Após alguns minutos fugindo, você vê a delegacia e pensa na oportunidade de se salvar.</p>
+            <button class="btn-proximo" data-proximo="11">Continuar.</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
